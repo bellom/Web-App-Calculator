@@ -10,10 +10,10 @@ function multButton() {
 function sumButton() {
 //get input 1 and 2 and sum them
 
-    let val1 = parseInt($("#input1").val());
-    let val2 = parseInt($("#input2").val());
-    let sum = "0";
-    sum = val1+val2;
+    let val1 = parseFloat($("#input1").val());
+    let val2 = parseFloat($("#input2").val());
+    let sum = "";
+    sum = (val1+val2);
     $('#result').html(sum);
 };
 
