@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Web Cal</title>
+        <script type = "text/javascript" language = "javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <style>
+            body {
+                text-align: center;
+                background-color: aquamarine;
+            }
+            header{
+                background-color:bisque;
+            }
+            button {
+                color: white;
+                border-radius: 10px;
+                height: 30px;
+            };
+        </style>
+
+    </head>
+    
+    <body>
+        <header>
+            <h1>Web App Calculator</h1>
+        </header>
+        
+        <div>
+            <input id="input1" type="number" placeholder="Enter Value1">
+            
+            <input id="input2" type="number" placeholder="Enter Value2">
+            <h3 id="result">Answer</h3>
+            <button onClick="multButton()">Multiply</button>
+            <button onClick="sumButton()">Sum</button>
+            <button onClick="divideButton()">Divide</button>
+            <button onClick="subButton()">Substract</button>
+        </div>
+        
+        <script src="cal.js"></script>
+    </body>
+    
+</html>
