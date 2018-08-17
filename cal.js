@@ -12,7 +12,7 @@ function sumButton() {
 
     let val1 = parseFloat($("#input1").val());
     let val2 = parseFloat($("#input2").val());
-    let sum = "";
+    let sum = "0";
     sum = (val1+val2);
     $('#result').html(sum);
 };
