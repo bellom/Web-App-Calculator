@@ -27,15 +27,15 @@
             <h1>Web App Calculator</h1>
         </header>
         
-        <div>
+        
             <input id="input1" type="number" placeholder="Enter Value1">
-            
             <input id="input2" type="number" placeholder="Enter Value2">
             <h3 id="result">Answer</h3>
-            <button onClick="multButton()">Multiply</button>
-            <button onClick="sumButton()">Sum</button>
-            <button onClick="divideButton()">Divide</button>
-            <button onClick="subButton()">Substract</button>
+        <div>
+            <button onClick="operations(this)" id="mult-btn">Multiply</button>
+            <button onClick="operations(this)" id="sum-btn">Sum</button>
+            <button onClick="operations(this)" id="divide-btn">Divide</button>
+            <button onClick="operations(this)" id="sub-btn">Substract</button>
         </div>
         
         <script src="cal.js"></script>
