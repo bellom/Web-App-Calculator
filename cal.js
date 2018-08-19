@@ -20,17 +20,3 @@ function operations(elem){
     }                
     $('#result').html(result)
 }
-
-
-
-
-
-//    if (elem.id == "mult-btn") {
-//        result = val1*val2;
-//    } else if (elem.id == "sum-btn") {
-//        result = val1+val2;
-//    } else if (elem.id == "divide-btn") {
-//        result = val1/val2;
-//    } else{
-//        result = val1-val2;
-//    }
